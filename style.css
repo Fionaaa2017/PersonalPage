@@ -1,0 +1,53 @@
+#profile_photo {
+    width:50%;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+body {
+    display:Grid;
+    grid-template-columns: 1fr 2fr;
+    margin:20px 20px 20px 20px;
+    grid-column-gap: 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/008/058/831/non_2x/a-simple-modern-abstract-design-a-beautiful-soft-off-white-element-twisting-and-flowing-on-a-beige-background-illustration-vector.jpg');
+    background-size: 100% 100%;
+}
+#name{
+    background-image:linear-gradient(to left,#006AC3,rgb(173, 124, 225));
+    color:transparent;
+    -webkit-background-clip:text;
+
+    font-family:sans-serif;
+    padding-left: 7%;
+    
+}
+h2, h3 {
+    color:#006AC3
+
+}
+h3{
+    text-decoration: underline;
+}
+.icons{
+    width: 30px;
+   
+}
+#contact{
+    list-style-type:none;
+    padding-left: 0px;
+    
+}
+#skill {
+    font-size:13px;
+    font-style: italic;
+}
+#About, #contact{
+    color:lightslategrey
+}
+
+/*#Right_panel{
+    background-color: rgb(245, 245, 237);
+}
+#Left_panel{
+    background-color: rgb(245, 245, 237);
+}*/
